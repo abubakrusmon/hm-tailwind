@@ -162,35 +162,11 @@
   }
 }
 @layer utilities {
-  .m-px {
-    margin: 1px;
-  }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
-  .mt-50 {
-    margin-top: calc(var(--spacing) * 50);
-  }
-  .mt-px {
-    margin-top: 1px;
+  .flex {
+    display: flex;
   }
   .table {
     display: table;
-  }
-  .h-30 {
-    height: calc(var(--spacing) * 30);
-  }
-  .h-39 {
-    height: calc(var(--spacing) * 39);
-  }
-  .h-80 {
-    height: calc(var(--spacing) * 80);
-  }
-  .w-32 {
-    width: calc(var(--spacing) * 32);
-  }
-  .w-80 {
-    width: calc(var(--spacing) * 80);
   }
   .border-collapse {
     border-collapse: collapse;
@@ -198,29 +174,24 @@
   .resize {
     resize: both;
   }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-\[2px\] {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
-  .border-solid {
-    --tw-border-style: solid;
-    border-style: solid;
-  }
-  .border-black {
-    border-color: var(--color-black);
-  }
-  .text-center {
-    text-align: center;
-  }
-  .text-\[30px\] {
-    font-size: 30px;
-  }
-  .text-\[50px\] {
-    font-size: 50px;
   }
   .underline {
     text-decoration-line: underline;
